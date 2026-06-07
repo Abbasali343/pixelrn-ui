@@ -1,5 +1,5 @@
 {
-  "name": "@pixelrn/ui",
+  "name": "@abbasalidev/pixelrn-ui",
   "version": "0.1.0-alpha.1",
   "description": "A modern React Native UI component library for Expo and React Native apps.",
   "main": "src/index.ts",
