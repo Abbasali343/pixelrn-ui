@@ -19,7 +19,8 @@ PixelRN UI provides beautiful, production-ready components inspired by the best 
 
 ## Button Variants
 
-![PixelRN Showcase](./assets/button-variants.jpeg)
+![PixelRN Button Showcase](./assets/button-variants.jpeg)
+![PixelRN Input Showcase](./assets/input-variants.jpeg)
 
 ## Installation
 
@@ -54,6 +55,14 @@ Supported sizes:
 - md
 - lg
 
+### Input
+
+Supported variants:
+
+- outline
+- filled
+- ghost
+
 ## Usage
 
 ```tsx
@@ -75,6 +84,27 @@ export default function App() {
       <Button variant="link">Link Button</Button>
 
       <Button variant="destructive">Delete Account</Button>
+
+      <Input label="Email" placeholder="Enter email" />
+
+      <Input
+        label="Password"
+        placeholder="Enter password"
+        variant="outline"
+        secureTextEntry
+      />
+
+      <Input
+        label="Error Example"
+        placeholder="Invalid input"
+        error="This field is required"
+      />
+
+      <Input
+        label="Helper Text Example"
+        placeholder="Type something"
+        helperText="This text helps the user"
+      />
     </View>
   );
 }
